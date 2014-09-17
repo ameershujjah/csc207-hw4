@@ -113,7 +113,7 @@ public class Calculator {
 				opIterator++;
 				i++;
 			}// If temp is an operand, add it to the operators array and
-				// increment it to skip the white space
+				// increment i to skip the white space
 			else {
 				buffer += temp;
 				fracSwitch = true;
