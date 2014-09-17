@@ -3,6 +3,7 @@ package edu.grinnell.csc207.shujjah.utils;
 import java.util.ArrayList;
 	// Citations:
 	// http://stackoverflow.com/questions/1921181/java-arraylist-of-string-arrays
+	// http://stackoverflow.com/questions/4042434/convert-arraylist-containing-strings-to-an-array-of-strings-in-java
 public class StringUtils {
 	/**
 	 * Splits the input string at the given character and outputs the resulting
