@@ -172,7 +172,7 @@ public class Fraction {
 		resultNumerator = this.num.multiply(multiplyme.num);
 
 		return new Fraction(resultNumerator, resultDenominator);
-	}// multiply(Fracion)
+	}// multiply(Fraction)
 
 	/**
 	 * Subtract the input fraction from this fraction.
@@ -182,7 +182,6 @@ public class Fraction {
 		BigInteger resultDenominator;
 
 		resultDenominator = this.denom.multiply(subtrahend.denom);
-		// The numerator is more complicated
 		resultNumerator = (this.num.multiply(subtrahend.denom))
 				.subtract(subtrahend.num.multiply(this.denom));
 
@@ -221,7 +220,7 @@ public class Fraction {
 	}// add(Fraction)
 
 	/**
-	 * Raises this fraction to the given exponent.
+	 * Raise this fraction to the given exponent.
 	 */
 	public Fraction pow(int expt) {
 		BigInteger resultNumerator;
