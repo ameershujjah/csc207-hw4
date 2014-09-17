@@ -1,7 +1,8 @@
 package edu.grinnell.csc207.shujjah.utils;
 
 import java.util.ArrayList;
-
+	// Citations:
+	// http://stackoverflow.com/questions/1921181/java-arraylist-of-string-arrays
 public class StringUtils {
 	/**
 	 * Splits the input string at the given character and outputs the resulting
@@ -11,7 +12,7 @@ public class StringUtils {
 
 		// Initialize an ArrayList of Strings, a String buffer
 		// and a temp char
-		ArrayList<String> substrs = new ArrayList<String>();
+		ArrayList<String> substrs = new ArrayList<String>(); 
 		String buffer = "";
 		char temp;
 		// Loop through all the characters in the string
@@ -76,3 +77,4 @@ public class StringUtils {
 		return substrsArray;
 	} // End splitCSV(String)
 } // End Class
+
